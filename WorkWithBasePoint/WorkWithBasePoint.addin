@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command WorkWithBasePoint</Text>
+    <Description>Some description for WorkWithBasePoint</Description>
+    <Assembly>WorkWithBasePoint\WorkWithBasePoint.dll</Assembly>
+    <FullClassName>WorkWithBasePoint.Command</FullClassName>
+    <ClientId>d302988a-54af-441d-b358-5fe097ac77ac</ClientId>
+    <VendorId>Putrya</VendorId>
+    <VendorDescription></VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application WorkWithBasePoint</Name>
+    <Assembly>WorkWithBasePoint\WorkWithBasePoint.dll</Assembly>
+    <FullClassName>WorkWithBasePoint.App</FullClassName>
+    <ClientId>5a6bb722-695b-4ed8-823d-e0751ed1e006</ClientId>
+    <VendorId>Putrya</VendorId>
+    <VendorDescription></VendorDescription>
+  </AddIn>
+</RevitAddIns>
